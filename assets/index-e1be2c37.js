@@ -1003,7 +1003,7 @@ ctx.lineWidth = 0.5;
   ctx.strokeStyle = 'rgb(0,255,0)';
   ctx.lineWidth = 0.5;
 
-  const maxSteps = Math.ceil(height / step);
+  const maxSteps = Math.ceil(height / step); // total number of steps in height
   // Use the modulo to cycle through the steps
   const current = (elapsed / stepMs) % maxSteps;
 
@@ -1025,4 +1025,4 @@ ctx.lineWidth = 0.5;
 );
 
 gi.run();
-//# sourceMappingURL=index-20ccc870.js.map
+//# sourceMappingURL=index-e1be2c37.js.map
